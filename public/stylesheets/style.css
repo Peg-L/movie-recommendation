@@ -4,7 +4,7 @@
 body {
 	font-family: "Noto Sans TC", sans-serif, Helvetica, Arial, sans-serif;
 	/* background-color: black; */
-	background: url("../movie\ theater.jpg") center / cover;
+	background: url("../movie-theater.jpg") center / cover;
 	color: white;
 	display: flex;
 	justify-content: center;
