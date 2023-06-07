@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: "Noto Sans TC", sans-serif, Helvetica, Arial, sans-serif;
+	/* background-color: black; */
+	background: url("../movie\ theater.jpg") center / cover;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100vh;
+	margin: 0;
+}
+
+::placeholder {
+	font-size: 12px;
+}
+
+.card {
+	border: 1px solid #1b1b1b;
+	border-radius: 16px;
+	background-color: #222222;
+	padding: 40px 36px;
+}
+.card-img {
+	width: 150px;
+}
+.card-title {
+	font-size: 26px;
+	margin: 0 0 24px 0;
+	font-weight: 700;
+}
+.card-text {
+	font-size: 32px;
+}
+.card-input {
+	width: 210px;
+	padding: 10px 18px;
+	border-radius: 8px;
+	margin-right: 8px;
+	border: none;
+}
+.card-btn {
+	background-color: #6a86f7;
+	color: white;
+	font-weight: 900;
+	padding: 8px 16px;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+}
+.card-btn:hover {
+	background-color: #f45b46;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>AI 電影推薦</title>
+		<link
+			rel="icon"
+			href="https://img.icons8.com/?size=512&id=7VHKA0VglCRf&format=png" />
+		<link rel="stylesheet" href="/stylesheets/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+			rel="stylesheet" />
+	</head>
+
+	<body class="body">
+		<form action="/" method="post">
+			<div class="card">
+				<h1 class="card-title">電影推薦</h1>
+				<img
+					src="https://cdn.shopify.com/s/files/1/0054/3822/products/new_red_cyan_blue_1024x1024.png?v=1571438517"
+					alt="new 3d-glasses"
+					class="card-img" />
+				<p class="card-text">
+					<% if (description.length) { %> <%= description %> <% } else { %> <%=
+					'可樂和爆米花準備好了嗎?' %> <% } %>
+				</p>
+				<input
+					type="text"
+					name="description"
+					class="card-input"
+					placeholder="請輸入喜歡的電影類型或關鍵字" />
+				<button type="submit" class="card-btn">送出</button>
+			</div>
+		</form>
+	</body>
+</html>
