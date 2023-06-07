@@ -1,6 +1,7 @@
 * {
 	box-sizing: border-box;
 }
+
 body {
 	font-family: "Noto Sans TC", sans-serif, Helvetica, Arial, sans-serif;
 	/* background-color: black; */
@@ -24,14 +25,18 @@ body {
 	background-color: #222222;
 	padding: 40px 36px;
 }
+
 .card-img {
 	width: 150px;
 }
+
 .card-title {
 	font-size: 26px;
+	color: aquamarine;
 	margin: 0 0 24px 0;
 	font-weight: 700;
 }
+
 .card-text {
 	font-size: 32px;
 }
